@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEconomy", "MyEconomy.csproj", "{C4BE9C95-2A74-42C6-95AA-EC6E7DE2DDDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEconomy", "MyEconomy\MyEconomy.csproj", "{C4BE9C95-2A74-42C6-95AA-EC6E7DE2DDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEconomy.Common.Utils", "MyEconomy.Common.Utils\MyEconomy.Common.Utils.csproj", "{DF11B365-B0D3-4EBC-A632-8399D2D8BE93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Common", "0 - Common", "{6E2D0D2F-E375-4CB9-92E9-860B086D3476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{C4BE9C95-2A74-42C6-95AA-EC6E7DE2DDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4BE9C95-2A74-42C6-95AA-EC6E7DE2DDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4BE9C95-2A74-42C6-95AA-EC6E7DE2DDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF11B365-B0D3-4EBC-A632-8399D2D8BE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF11B365-B0D3-4EBC-A632-8399D2D8BE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF11B365-B0D3-4EBC-A632-8399D2D8BE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF11B365-B0D3-4EBC-A632-8399D2D8BE93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF11B365-B0D3-4EBC-A632-8399D2D8BE93} = {6E2D0D2F-E375-4CB9-92E9-860B086D3476}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EACE7C41-7F24-430A-B9A0-EF1DDD74DF77}
